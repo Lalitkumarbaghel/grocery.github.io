@@ -5446,7 +5446,7 @@ p.success {
     .price_select select{margin-left: 0px;margin-bottom: 5px;}
     .product_subscribe {flex-direction: column;order: 1;}
     button.subscribe_btn{width: 100%;order: 2;margin-top: 5px;}
-    .product_subscribe > a >button{order: 2;}
+    .product_subscribe > a{order: 2;}
     .product_subscribe >select {width: 100%;}
     .product_subscribe.select_top button.subscribe_btn{margin-top: 0px;}
     .product_add_btn_whith_subscribe {flex-direction: column;margin-top: 0px;}
