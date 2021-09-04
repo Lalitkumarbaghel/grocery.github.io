@@ -1032,9 +1032,10 @@ button.subscribe_btn {
     color: #ffffff;
     font-weight: 600;
     font-size: 13px;
+    display: none;
 }
 .add_cart_btn span.shipping_cart{
-    display: none;
+    display: inline-block;
 }
 .product_heart_btn .veg{
     top: inherit;
