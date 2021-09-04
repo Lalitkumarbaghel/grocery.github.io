@@ -213,7 +213,7 @@ ol, li {
 }
 .fake-radio {
   position: absolute;
-    bottom: -5px;
+    bottom: -10px;
     right: 5px;
 }
 
