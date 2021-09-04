@@ -9,8 +9,8 @@
 /*start color*/
 :root {
   --green_color: #10b50a;
-  --border-radius: 3px;
-  --addbutton-radius: 25px;
+  --border-radius: 50%;
+  --addbutton-radius: 5px;
   --addbutton-bgc: #c7eac6;
   --addbutton-color: #fff;
   --section-bgc: #f1f1f1;
