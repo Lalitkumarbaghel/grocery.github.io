@@ -539,13 +539,13 @@ input{
 }
 .grocery_product_info a{
         font-weight: 600;
-    line-height: 21px;
+    line-height: 20px;
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 39px;
+    height: 40px;
 }
 .grocery_product_info p.price_home{
     font-weight: 600;
