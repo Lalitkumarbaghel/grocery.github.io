@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<div class="signup_main">
+	<div class="signup_logo">
+		<img src="images/logo2.png">
+		<div class="sign_back_btn">
+			<a href="#">
+				<span><i class="fas fa-chevron-left"></i></span>
+			</a>
+		</div><!--end back button-->
+	</div>
+	<div class="signup_form">
+		<div class="form_group">
+			<div class="signup_heading">
+				<h2>Create An Account</h2>
+				<p>Lorem Ipsum is simply dummy</p>
+			</div>
+			<div class="signup_form2">
+					<form>
+					<ul>
+						<li>
+							<div class="form_input_box">
+								<input type="number" name="" placeholder="Enter Your Mobile Number">
+								<span class="icon_form"><i class="fas fa-mobile-alt"></i></span>
+							</div>
+							<p class="error_red">Please Enter Your Mobile Number</p>
+						</li>
+						<li>
+							<div class="form_input_box">
+								<input type="email" name="" placeholder="Enter Your Email">
+								<span class="icon_form"><i class="fas fa-envelope"></i></span>
+							</div>
+							<!-- <p class="error_red">Please Enter Email</p> -->
+						</li>
+						<li>
+							<div class="form_input_box">
+								<input type="password" name="" placeholder="Enter Your Password" id="password_signup">
+								<span class="icon_form" ><i class="fas fa-lock"></i></span>
+								<span class="password_eyes" onclick="passwordshow();" id="eyes_icon"><i class="far fa-eye-slash"></i></span>
+								<script>
+										function passwordshow() {
+										  let password_input = document.getElementById("password_signup");
+										  let pass_eye = document.getElementById("eyes_icon");
+										  if (password_input.type === "password") {
+										    password_input.type = "text";
+										    pass_eye.innerHTML = '<i class="far fa-eye"></i>';
+										  } else {
+										    password_input.type = "password";
+										    pass_eye.innerHTML = '<i class="far fa-eye-slash"></i>';
+										  }
+										}
+										</script>
+							</div>
+							<p class="error_red">Please Enter Password</p>
+						</li>
+						<li>
+							<div class="form_input_box">
+								<input type="password" name="" placeholder="Repeat Password" id="re_password_signup">
+								<span class="icon_form"><i class="fas fa-lock"></i></span>
+								<span class="password_eyes" onclick="re_passwordshow();" id="eyes_icon2"><i class="far fa-eye-slash"></i></span>
+								<script>
+										function re_passwordshow() {
+										  let re_pass_input = document.getElementById("re_password_signup");
+										  let re_pass_eye = document.getElementById("eyes_icon2");
+										  if (re_pass_input.type === "password") {
+										    re_pass_input.type = "text";
+										    re_pass_eye.innerHTML = '<i class="far fa-eye"></i>';
+										  } else {
+										    re_pass_input.type = "password";
+										    re_pass_eye.innerHTML = '<i class="far fa-eye-slash"></i>';
+										  }
+										}
+										</script>
+							</div>
+							<!-- <p class="error_red">Please Repeat Password</p> -->
+						</li>
+						<li>
+							<input type="submit" name="" value="Sign Up" class="btn_green signup_btn">
+						</li>
+						<li>
+							<div class="forgot_password">
+								<div class="remember_txt">
+									<input type="checkbox" name="" checked>
+									<div class="remember_txt2 terms_cntnt">
+										<p>By registering, You agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
+										<span class="remember_checkmark"></span>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</form>
+				<div class="signin_btn">
+					<p>Already have an account?</p>
+					<a href="#" >Log In</a>
+				</div>
+			</div><!--end sign up form-->
+		</div><!--end form group-->
+	</div>
+</div>
+
+</body>
+</html>

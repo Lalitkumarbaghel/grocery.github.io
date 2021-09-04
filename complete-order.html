@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<div class="home_page_main_div">
+	<!-- start header -->
+	<div class="top_header">
+		<div class="header_loction">
+			<div class="header_loction_left">
+				<div class="bar_icn" id="bar_icn_menu">
+					<i class="fas fa-chevron-left"></i>
+				</div>
+				<div class="heade_loction">
+					<p class="delivery_loc_txt">Delivery Location</p>
+					<a href="search-location.html" class="edit_icn">
+						<!-- <span class="location_name">Gurgaon</span> -->
+						<span class="edit_loction_icn"><i class="fas fa-pencil-alt"></i></span>
+					</a>
+				</div>
+			</div>
+			<div class="header_loction_right">
+				<ul>
+					<li>
+						<a href="cart.html" class="header_cart">
+							<i class="fas fa-shopping-cart"></i>
+							<div class="header_cart_count">10</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-user-alt"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="header_search">
+			<div class="header_search_box">
+				<input type="search" name="" placeholder="Find Products Here...">
+				<button><i class="fas fa-search"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+	<!-- start shipping address -->
+	<div class="shipping_address">
+		<div class="adress_tracking">
+			<div class="order_tracking_row">
+				<div class="order-tracking completed">
+					<span class="is-complete">
+						<span class="order_number">1</span>
+					</span>
+					<p>Sign In</p>
+				</div>
+				<div class="order-tracking completed">
+					<span class="is-complete">
+						<span class="order_number">2</span>
+					</span>
+					<p>Shipping Details</p>
+				</div>
+				<div class="order-tracking completed">
+					<span class="is-complete">
+						<span class="order_number">3</span>
+					</span>
+					<p>Payment</p>
+				</div>
+			</div>		
+		</div><!--end tracking-->
+		<!-- start order complete -->
+		<div class="order_complete">
+			<div class="order_complete_price">
+				<ul>
+					<li>
+						<div class="order_complete_price_lft">
+							<p>Billed Amount</p>
+						</div>
+						<div class="order_complete_price_right">
+							<p> &#x20B9;267.50</p>
+						</div>
+					</li>
+					<li>
+						<div class="order_complete_price_lft">
+							<p>Delivery Charges</p>
+						</div>
+						<div class="order_complete_price_right">
+							<p> &#x20B9;0</p>
+						</div>
+					</li>
+					<li>
+						<div class="order_complete_price_lft">
+							<p class="order_amout">Net Payable Amount</p>
+						</div>
+						<div class="order_complete_price_right">
+							<p class="order_price"> &#x20B9;267.50</p>
+						</div>
+					</li>
+				</ul>
+			</div><!--end order price-->
+				<div class="order_final_txt">
+					<p>Final amount will depend on actual weight of items ordered.</p>
+				</div>
+			<div class="order_coupen" >
+				<div class="order_coupen_heading" id="order_coupen_heading">
+					<h6><span><i class="fas fa-tags"></i></span> Apply Coupon code</h6>
+					<span class="chevron_arrow"><i class="fas fa-chevron-right"></i></span>
+				</div>
+				<div class="coupen_form">
+					<textarea placeholder="Comments"></textarea>
+				</div>
+			</div><!--end coupen code-->
+			<div class="payment_type wallet_check_payment">
+					<ul>
+						<li class="wallet_payment">
+							<input type="checkbox" checked>
+							<div class="payemnt_cntnt">
+								<p class="wallet_type">Redeem Coins</p>
+								<span class="wallet_checkmark"></span>
+								<div class="payment_grocery_logo">
+									<img src="images/coin_icon.png">
+								</div>
+							</div> 
+						</li>
+						<li class="wallet_payment">
+							<input type="checkbox" checked>
+							<div class="payemnt_cntnt">
+								<p class="wallet_type">Use Wallet Balance</p>
+								<span class="wallet_checkmark"></span>
+								<div class="payment_grocery_logo">
+									<img src="images/wallet_icon2.png">
+								</div>
+							</div> 
+							<div class="wallet_amout_pay">
+								<p>Amount To Pay: <span>&#x20B9; 105</span></p>
+							</div>
+						</li>
+						
+					</ul>
+					
+				</div>
+			<div class="order_slot">
+				<h5>Delivery Slot:  <span>Tomorrow, 10:00 - 13:00</span></h5>
+				<a href="#">Change Slot</a>
+			</div><!--end slot-->
+			<div class="payment_method">
+				<div class="payment_method_heading">
+					<h5>Payment Method</h5>
+				</div>
+				<div class="payment_type payment_method_check">
+					<ul>
+						<li class="wallet_payment">
+							<input type="radio" name="payment">
+							<div class="payemnt_cntnt">
+								<p class="wallet_type">Pay Online</p>
+								<span class="wallet_checkmark"></span>
+							</div> 
+						</li>
+						<li class="wallet_payment">
+							<input type="radio" name="payment">
+							<div class="payemnt_cntnt">
+								<p class="wallet_type">Cash Payment</p>
+								<span class="wallet_checkmark"></span>
+							</div> 
+						</li>
+					</ul>
+				</div>
+			</div><!--end payment method-->
+			<!--  -->
+			<div class="order_space_btm"></div>
+			<div class="order_complete_btn">
+				<a href="#">Complete Order</a>
+			</div>
+		</div>
+		<!-- end order complete -->
+		
+	</div>
+	<!-- end shipping address -->
+	
+</div>
+
+
+</body>
+</html>

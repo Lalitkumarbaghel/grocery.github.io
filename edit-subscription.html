@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<!-- start edit subscription edit -->
+<div class="subscription_edit">
+	<div class="subscription_edit_header">
+		<h3><span class="icn"><i class="fas fa-chevron-left"></i></span><span class="sub">Subscription</span></h3>
+	</div>
+	<!-- start sub product -->
+	<div class="sub_product">
+		<div class="subscription_cntnt">
+				<div class="subscription_image">
+					<img src="images/product3.jpg">
+				</div>
+				<div class="subscription_right_cntnt">
+					<h5> 20-20 BUTTER BISCUITS (35GM)</h5>
+					<p class="sub_price">&#x20B9;52</p>
+				</div>
+			</div>
+			<div class="sub_delivery_address">
+				<div class="delivery_address">
+					<h5>Choose Delivery Address</h5>
+					<button> + Add New Address</button>
+				</div>
+				<form>
+					<div class="sub_delivery_recent_add">
+						<ul>
+							<li>
+								<div class="sub_delivery_add">
+									<input type="radio" name="sub_address">
+									<div class="sub_box">
+										<div class="icon_">
+										<img src="images/delivery-location-icon.gif">
+										<div class="sub_checkmark"></div>
+									</div>
+									<div class="location_">
+										<p>White Tiger Retail Private Lim, 
+	                        SF-705, 7th Floor, Jmd Megapolis, Sector 48, JMD Megapolis, Sohna Road, Sector 48, Gurugram, Haryana, India, Gurgaon, HARYANA</p>
+									</div>
+									</div>
+									
+								</div>
+							</li><!--end li-->
+							<li>
+								<div class="sub_delivery_add">
+									<input type="radio" name="sub_address">
+									<div class="sub_box">
+										<div class="icon_">
+										<img src="images/delivery-location-icon.gif">
+										<div class="sub_checkmark"></div>
+									</div>
+									<div class="location_">
+										<p>Manoj Kumar Sachdeva, 
+	                        Sector 47 Sohna Road, , Gurgaon, HARYANA</p>
+									</div>
+									</div>
+									
+								</div>
+							</li><!--end li-->
+							<li>
+								<div class="sub_delivery_add">
+									<input type="radio" name="sub_address">
+									<div class="sub_box">
+										<div class="icon_">
+										<img src="images/delivery-location-icon.gif">
+										<div class="sub_checkmark"></div>
+									</div>
+									<div class="location_">
+										<p>Manoj Kumar Sachdeva, 
+	                        Sector 47 Sohna Road, Today Blossoms - 1, Vikas Marg, Block A, Sector 47, Gurugram, Haryana, India, , </p>
+									</div>
+									</div>
+									
+								</div>
+							</li><!--end li-->
+							<li>
+								<div class="sub_delivery_add">
+									<input type="radio" name="sub_address">
+									<div class="sub_box">
+										<div class="icon_">
+										<img src="images/delivery-location-icon.gif">
+										<div class="sub_checkmark"></div>
+									</div>
+									<div class="location_">
+										<p>Manoj Kumar Sachdeva, 
+	                        Sector 47 Sohna Road Test, , Gurgaon, ANDAMAN AND NICOBAR ISLANDS</p>
+									</div>
+									</div>
+									
+								</div>
+							</li><!--end li-->
+							<li>
+								<div class="sub_delivery_add">
+									<input type="radio" name="sub_address">
+									<div class="sub_box">
+										<div class="icon_">
+										<img src="images/delivery-location-icon.gif">
+										<div class="sub_checkmark"></div>
+									</div>
+									<div class="location_">
+										<p>Manoj Kumar Sachdeva, 
+	                        Test address, , Gurgaon, HARYANA</p>
+									</div>
+									</div>
+									
+								</div>
+							</li><!--end li-->
+						</ul>
+					</div><!--end loction-->
+					<div class="sub_timing_cntnt">
+						<div class="sub_timing_section">
+							<label>Start From:</label>
+							<div class="start_form">
+								<select>
+									<option>24/Aug/2021</option>
+									<option>25/Aug/2021</option>
+									<option>26/Aug/2021</option>
+									<option>27/Aug/2021</option>
+									<option>28/Aug/2021</option>
+									<option>29/Aug/2021</option>
+									<option>30/Aug/2021</option>
+									<option>31/Aug/2021</option>
+									<option>01/Sep/2021</option>
+									<option>02/Sep/2021</option>
+								</select>
+							</div>
+						</div><!--end section-->
+						<div class="sub_timing_section">
+							<label>End on:</label>
+							<div class="start_form">
+								<select onchange="showDiv('hidden_div', this)">
+									<option value="0">Never</option>
+									<option value="1">Choose Date</option>
+								</select>
+							</div>
+							<div class="choose_date" id="hidden_div">
+								<div class="show_date">
+									<select>
+										<option>2021</option><option>2022</option>
+									</select>
+									<select>
+										<option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option><option>Jun</option><option>Jul</option><option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
+									</select>
+									<select>
+										<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option>
+										<option>30</option><option>31</option>
+									</select>
+								</div>
+							</div>
+							<script type="text/javascript">
+								function showDiv(divId, element){
+    						document.getElementById(divId).style.display = element.value == 1 ? 'block' : 'none';}
+							</script>
+						</div><!--end section-->
+						<div class="sub_timing_section">
+							<label>Frequency:</label>
+							<div class="start_form">
+								<select>
+									<option>Daily</option>
+									<option>Weekly</option>
+									<option>Once every month</option>
+									<option>Twice in a month</option>
+									<option>Twice in a week</option>
+								</select>
+							</div>
+						</div><!--end section-->
+						<div class="sub_timing_section">
+							<div class="frequency-chart">
+								<div class="frequency-chart_header">
+									<div class="chart_leader_day">
+										<h6>Day</h6>
+									</div>
+									<div class="chart_leader_quantity">
+										<h6>Quantity</h6>
+									</div>
+								</div><!--end header-->
+								<div class="frequency-chart_colums">
+									<div class="colums_day">
+										<p>Sunday</p>
+									</div>
+									<div class="colums_btn">
+										<div class="with_add_cart_btn">
+											<div class="add_btn_input">
+												<button class="minus_btn"><i class="fas fa-minus"></i></button>
+												<input type="text" name="" class="input_txt" value="99">
+												<button class="add_icn"><i class="fas fa-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div><!--end chart colums-->
+								<div class="frequency-chart_colums">
+									<div class="colums_day">
+										<p>Monday</p>
+									</div>
+									<div class="colums_btn">
+										<div class="with_add_cart_btn">
+											<div class="add_btn_input">
+												<button class="minus_btn"><i class="fas fa-minus"></i></button>
+												<input type="text" name="" class="input_txt" value="99">
+												<button class="add_icn"><i class="fas fa-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div><!--end chart colums-->
+								<div class="frequency-chart_colums">
+									<div class="colums_day">
+										<p>Tuesday</p>
+									</div>
+									<div class="colums_btn">
+										<div class="with_add_cart_btn">
+											<div class="add_btn_input">
+												<button class="minus_btn"><i class="fas fa-minus"></i></button>
+												<input type="text" name="" class="input_txt" value="99">
+												<button class="add_icn"><i class="fas fa-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div><!--end chart colums-->
+								<div class="frequency-chart_colums">
+									<div class="colums_day">
+										<p>Wednesday</p>
+									</div>
+									<div class="colums_btn">
+										<div class="with_add_cart_btn">
+											<div class="add_btn_input">
+												<button class="minus_btn"><i class="fas fa-minus"></i></button>
+												<input type="text" name="" class="input_txt" value="99">
+												<button class="add_icn"><i class="fas fa-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div><!--end chart colums-->
+								<div class="frequency-chart_colums">
+									<div class="colums_day">
+										<p>Thursday</p>
+									</div>
+									<div class="colums_btn">
+										<div class="with_add_cart_btn">
+											<div class="add_btn_input">
+												<button class="minus_btn"><i class="fas fa-minus"></i></button>
+												<input type="text" name="" class="input_txt" value="99">
+												<button class="add_icn"><i class="fas fa-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div><!--end chart colums-->
+								<div class="frequency-chart_colums">
+									<div class="colums_day">
+										<select class="frequency_select_days">
+												<option>Sunday</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option>
+										</select>
+									</div>
+									<div class="colums_btn">
+										<div class="with_add_cart_btn">
+											<div class="add_btn_input">
+												<button class="minus_btn"><i class="fas fa-minus"></i></button>
+												<input type="text" name="" class="input_txt" value="99">
+												<button class="add_icn"><i class="fas fa-plus"></i></button>
+											</div>
+										</div>
+									</div>
+								</div><!--end chart colums-->
+							</div>
+						</div><!--end section-->
+						<!-- start spcace -->
+						<div class="sub_edit_space"></div>
+						<!-- end spcace -->
+						<div class="frequency_chart_footer">
+							<button type="submit" class="confirm_btn">Confirm Details & Subscribe</button>
+						</div>
+					</div>
+				</form>
+			</div>
+	</div>
+	<!-- end sub product -->
+</div>
+<!-- end edit subscription edit -->
+
+
+</body>
+</html>

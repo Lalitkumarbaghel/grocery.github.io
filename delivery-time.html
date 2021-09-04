@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<div class="home_page_main_div">
+	<!-- start header -->
+	<div class="top_header">
+		<div class="header_loction">
+			<div class="header_loction_left">
+				<div class="bar_icn" id="bar_icn_menu">
+					<i class="fas fa-chevron-left"></i>
+				</div>
+				<div class="heade_loction">
+					<p class="delivery_loc_txt">Delivery Location</p>
+					<a href="search-location.html" class="edit_icn">
+						<!-- <span class="location_name">Gurgaon</span> -->
+						<span class="edit_loction_icn"><i class="fas fa-pencil-alt"></i></span>
+					</a>
+				</div>
+			</div>
+			<div class="header_loction_right">
+				<ul>
+					<li>
+						<a href="cart.html" class="header_cart">
+							<i class="fas fa-shopping-cart"></i>
+							<div class="header_cart_count">10</div>
+						</a>
+					</li>
+					<li>
+						<a href="edit-profile.html">
+							<i class="fas fa-user-alt"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="header_search">
+			<div class="header_search_box">
+				<input type="search" name="" placeholder="Find Products Here...">
+				<button><i class="fas fa-search"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<!-- start delivery time content-->
+	<div class="delivery_time_box">
+		<div class="fast_delivery_img">
+			<div class="fast_delivery_img_box">
+				<img src="images/fast-delivery.gif">	
+			</div>
+		</div>
+		<div class="fast_delivery_tabs">
+			<div class="fast_delivery_tabs_btns tab">
+				<button class="slot_tablinks active" onclick="delivery_slot(event, 'sun')"><span class="day_name">Sun</span><span class="date_delivery">Tomorrow</span></button>
+				<button class="slot_tablinks" onclick="delivery_slot(event, 'mon')"><span class="day_name">Mon</span><span class="date_delivery">23 Aug</span></button>
+				<button class="slot_tablinks" onclick="delivery_slot(event, 'tue')"><span class="day_name">Tue</span><span class="date_delivery">24 Aug</span></button>
+				<button class="slot_tablinks" onclick="delivery_slot(event, 'web')"><span class="day_name">Web</span><span class="date_delivery">25 Aug</span></button>
+				<button class="slot_tablinks" onclick="delivery_slot(event, 'thu')"><span class="day_name">Thu</span><span class="date_delivery">26 Aug</span></button>
+				<button class="slot_tablinks" onclick="delivery_slot(event, 'fri')"><span class="day_name">Fri</span><span class="date_delivery">27 Aug</span></button>
+				<button class="slot_tablinks" onclick="delivery_slot(event, 'sat')"><span class="day_name">Sat</span><span class="date_delivery">28 Aug</span></button>
+			</div>
+			<div class="fast_delivery_tablink">
+				
+				<div id="sun" class="slot_tabcontent">
+					 <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1PM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end sun-->
+
+				<div id="mon" class="slot_tabcontent">
+					 <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">8AM - 1PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1AM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end mon-->
+				<div id="tue" class="slot_tabcontent">
+					  <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">8AM - 1PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1AM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end tue-->
+				<div id="web" class="slot_tabcontent">
+					 <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">8AM - 1PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1AM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end web-->
+				<div id="thu" class="slot_tabcontent">
+					  <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">8AM - 1PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1AM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end thu-->
+				<div id="fri" class="slot_tabcontent">
+					  <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">8AM - 1PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1AM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end fri-->
+				<div id="sat" class="slot_tabcontent">
+					  <ul>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">8AM - 1PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 	<li>
+					 		<div class="delivery_slot_time">
+							 	<input type="radio" name="slot">
+							 	<div class="slot_time_cntnt">
+							 		<p class="slot_time">1AM - 6PM</p>
+							 		<p class="slot_free">Free Slot</p>
+							 		<span class="slot_checkmark"></span>
+							 	</div>
+							 </div>
+					 	</li>
+					 </ul>
+				</div><!--end sat-->
+				
+
+
+				<script>
+					function delivery_slot(evt, cityName) {
+					  let i, slot_tabcontent, slot_tablinks;
+					  slot_tabcontent = document.getElementsByClassName("slot_tabcontent");
+					  for (i = 0; i < slot_tabcontent.length; i++) {
+					    slot_tabcontent[i].style.display = "none";
+					  }
+					  slot_tablinks = document.getElementsByClassName("slot_tablinks");
+					  for (i = 0; i < slot_tablinks.length; i++) {
+					    slot_tablinks[i].className = slot_tablinks[i].className.replace(" active", "");
+					  }
+					  document.getElementById(cityName).style.display = "block";
+					  evt.currentTarget.className += " active";
+					}
+					</script> 
+			</div>
+		</div>
+	</div>
+	<!-- end delivery time content-->
+	
+</div>
+</body>
+</html>

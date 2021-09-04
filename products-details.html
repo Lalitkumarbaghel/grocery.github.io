@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<div class="home_page_main_div">
+	<!-- start header -->
+	<div class="top_header">
+		<div class="header_loction">
+			<div class="header_loction_left">
+				<div class="bar_icn" id="bar_icn_menu">
+					<i class="fas fa-chevron-left"></i>
+				</div>
+				<div class="heade_loction">
+					<p class="delivery_loc_txt">Delivery Location</p>
+					<a href="search-location.html" class="edit_icn">
+						<!-- <span class="location_name">Gurgaon</span> -->
+						<span class="edit_loction_icn"><i class="fas fa-pencil-alt"></i></span>
+					</a>
+				</div>
+			</div>
+			<div class="header_loction_right">
+				<ul>
+					<li>
+						<a href="cart.html" class="header_cart">
+							<i class="fas fa-shopping-cart"></i>
+							<div class="header_cart_count">10</div>
+						</a>
+					</li>
+					<li>
+						<a href="edit-profile.html">
+							<i class="fas fa-user-alt"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="header_search">
+			<div class="header_search_box">
+				<input type="search" name="" placeholder="Find Products Here...">
+				<button><i class="fas fa-search"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+	<!-- start product_info -->
+	<div class="product_information">
+		<div class="product_info_slider">
+			<div class="productInfo_slider">
+				<div class="productInfo_slides">
+				    <div id="slide-1">
+				      <img src="images/product2.jpg">
+				    </div>
+				    <div id="slide-2">
+				      <img src="images/product3.jpg">
+				    </div>
+				    <div id="slide-3">
+				      <img src="images/product4.jpg">
+				    </div>
+				    <div id="slide-4">
+				      <img src="images/product5.jpg">
+				    </div>
+				</div>
+			</div>
+		</div><!--end slider-->
+		<div class="product_information_middle">
+			<div class="product_name2">
+				<p class="product_title">Everest Pav Bhaji Masala Powder (100g)</p>
+			</div>
+			<div class="product_price_btn">
+				<div class="product_mrp">
+					<h5><span>Product MRP:</span> &#x20B9;500</h5>
+					<p class="taxes_free">(Inclusive of all taxes)</p>
+				</div>
+				<div class="product_mrp_btns">
+					<button class="add_cart_btn">Add <span class="shipping_cart"><i class="fas fa-plus"></i></span></button>
+					<div class="add_btn_input" style="display:none;">
+						<button class="minus_btn"><i class="fas fa-minus"></i></button>
+						<input type="text" name="" class="input_txt" value="99">
+						<button class="add_icn"><i class="fas fa-plus"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="product_price_btn">
+				<div class="product_mrp">
+					<h5><span>Product MRP:</span> &#x20B9;500</h5>
+					<p class="taxes_free">(Inclusive of all taxes)</p>
+				</div>
+				<div class="product_mrp_btns">
+					<button class="add_cart_btn" style="display:none;">Add <span class="shipping_cart"><i class="fas fa-plus"></i></span></button>
+					<div class="add_btn_input" >
+						<button class="minus_btn"><i class="fas fa-minus"></i></button>
+						<input type="text" name="" class="input_txt" value="99">
+						<button class="add_icn"><i class="fas fa-plus"></i></button>
+					</div>
+				</div>
+			</div>
+		</div><!--end middle content-->
+		<div class="product_unite">
+			<p>Unit</p>
+			<div class="filter_brand_cntnt">
+				<ul>
+					<li>
+						<label>
+							<input type="checkbox" name="" checked>
+							<p class="brand_name">1kg</p>
+							<span class="checked_bgclr"></span>
+						</label>
+					</li><!--end li-->
+					<li>
+						<label>
+							<input type="checkbox" name="" disabled>
+							<p class="brand_name">500gm</p>
+							<span class="checked_bgclr"></span>
+						</label>
+					</li><!--end li-->
+				</ul>
+			</div>
+		</div><!--end unit-->
+		<div class="product_description">
+			<div class="tab">
+			  <button class="tablinks_descri active" onclick="description_tabs(event, 'description')">Description</button>
+			  <button class="tablinks_descri" onclick="description_tabs(event, 'features')">Features/Specification</button>
+			</div>
+			<div class="product_tablinks">
+				<div id="description" class="tabcontent_descri">
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+
+				<div id="features" class="tabcontent_descri">
+				  <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p> 
+				</div>
+
+			</div>
+			<script>
+				function description_tabs(evt, description) {
+				  let i, tabcontent, tablinks;
+				  tabcontent = document.getElementsByClassName("tabcontent_descri");
+				  for (i = 0; i < tabcontent.length; i++) {
+				    tabcontent[i].style.display = "none";
+				  }
+				  tablinks = document.getElementsByClassName("tablinks_descri");
+				  for (i = 0; i < tablinks.length; i++) {
+				    tablinks[i].className = tablinks[i].className.replace(" active", "");
+				  }
+				  document.getElementById(description).style.display = "block";
+				  evt.currentTarget.className += " active";
+				}
+				</script>
+		</div><!--end description-->
+	</div>
+	<!-- end product_info -->
+	
+</div>
+
+
+</body>
+</html>

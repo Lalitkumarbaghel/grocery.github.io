@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<!-- start coupon header-->
+<div class="apply_coupon_header">
+	<div class="coupon_left_icn">
+		<h3><span><i class="fas fa-chevron-left"></i></span><span>Appy Coupons</span></h3>
+	</div>
+</div>
+<!-- end coupon header-->
+<!-- start coupon content -->
+<div class="coupon_cntnt">
+	<div class="apply_coupon_search">
+		<form>
+			<input type="text" name="" placeholder="Enter Coupon Code" class="input_area">
+			<button type="button" class="appy_coupon_btn">Apply</button>
+		</form>
+		<p>Available Coupons</p>
+		
+	</div>
+	<!-- start coupon content listing-->
+	<div class="coupon_listing">
+		<div class="coupon_listing_header">
+			<div class="listing_left_code">
+				<h4>Payzapp75</h4>
+			</div>
+			<div class="listing_apply_btn">
+				<button id="apply_coupon_modal">Apply</button>
+			</div>
+		</div>
+		<h3>Get 20% discount HDFC Bank Payzapp cart</h3>
+		<div class="coupon_btm_cntnt">
+			<p class="coupon_btm_head">Use code TRYNEW & get 60% off on orders above Rs.149 Maximum discount: Rs.120</p>
+		</div>
+	</div><!--end coupon listing-->
+	<!-- start coupon content listing-->
+	<div class="coupon_listing">
+		<div class="coupon_listing_header">
+			<div class="listing_left_code">
+				<h4>Payzapp75</h4>
+			</div>
+			<div class="listing_apply_btn">
+				<button disabled>Apply</button>
+			</div>
+		</div>
+		<h3>Get 20% discount using RuPay platinum Debit cart</h3>
+		<div class="coupon_btm_cntnt">
+			<p class="coupon_btm_head">Maximum discount up to &#x20B9;600 on orders above &#x20B9;1000</p>
+			<p class="coupon_slot">Offer Applicable in certain time slots. check Tncs</p>
+		</div>
+	</div><!--end coupon listing-->
+	<!-- start coupon content listing-->
+	<div class="coupon_listing">
+		<div class="coupon_listing_header">
+			<div class="listing_left_code">
+				<h4>Payzapp75</h4>
+			</div>
+			<div class="listing_apply_btn">
+				<button>Apply</button>
+			</div>
+		</div>
+		<h3>Get 20% discount HDFC Bank Payzapp cart</h3>
+		<div class="coupon_btm_cntnt">
+			<p class="coupon_btm_head">Use code TRYNEW & get 60% off on orders above Rs.149 Maximum discount: Rs.120</p>
+		</div>
+	</div><!--end coupon listing-->
+	<!-- start coupon content listing-->
+	<div class="coupon_listing">
+		<div class="coupon_listing_header">
+			<div class="listing_left_code">
+				<h4>Payzapp75</h4>
+			</div>
+			<div class="listing_apply_btn">
+				<button>Apply</button>
+			</div>
+		</div>
+		<h3>Get 20% discount HDFC Bank Payzapp cart</h3>
+		<div class="coupon_btm_cntnt">
+			<p class="coupon_btm_head">Use code TRYNEW & get 60% off on orders above Rs.149 Maximum discount: Rs.120</p>
+		</div>
+	</div><!--end coupon listing-->
+	
+</div>
+	
+	
+	
+
+
+<!-- start coupon modal -->
+<div class="coupon_ovlry" id="coupon_ovlry"></div>
+<div class="coupon_modal" id="coupon_modal">
+	<div class="coupon_img">
+		<img src="images/coupon_discount.gif">
+	</div>
+	<div class="coupon_code_cntnt">
+		<h6 class="apply_coupon"><span>trynew</span> Applied</h6>
+		<h4 class="coupon_offer">&#x20B9; 100</h4>
+		<p class="coupon_save">Savings with this coupon</p>
+		<p class="enter_time"><span>trynew</span> and save every time you order</p>
+		<button class="yay_btn">YAY!</button>
+	</div>
+</div>
+<script type="text/javascript">
+	function applycoupon(){
+		let coupon_ov = document.getElementById("coupon_ovlry");
+		let coupon_modal = document.getElementById("coupon_modal"); 
+		coupon_ov.classList.add("active");
+		coupon_modal.classList.add("active");
+		}
+		document.querySelector("#apply_coupon_modal").addEventListener("click", applycoupon);
+		function applycoupon_h(){
+		let coupon_ov = document.getElementById("coupon_ovlry");
+		let coupon_modal = document.getElementById("coupon_modal"); 
+		coupon_ov.classList.remove("active");
+		coupon_modal.classList.remove("active");
+		}
+		document.querySelector("#coupon_ovlry").addEventListener("click", applycoupon_h);
+		document.querySelector(".yay_btn").addEventListener("click", applycoupon_h);
+</script>
+<!-- end coupon modal -->
+<!-- start coupon modal oops! -->
+<div class="coupon_ovlry" id="coupon_oops_ovlry"></div>
+<div class="coupon_modal" id="coupon_oops_modal">
+	<div class="coupon_img">
+		<img src="images/oops_icon.png">
+	</div>
+	<div class="coupon_code_cntnt">
+		<h6 class="apply_coupon">Opps!</h6>
+		<p class="coupon_save">Coupon does not exist</p>
+		<button class="ok_btn">OK</button>
+	</div>
+</div>
+<script type="text/javascript">
+	function oopscoupon(){
+		let coupon_oops = document.getElementById("coupon_oops_ovlry");
+		let coupon_modal_oops = document.getElementById("coupon_oops_modal"); 
+		coupon_oops.classList.add("active");
+		coupon_modal_oops.classList.add("active");
+		}
+		document.querySelector(".appy_coupon_btn").addEventListener("click", oopscoupon);
+		function oopscoupon_h(){
+		let coupon_oops = document.getElementById("coupon_oops_ovlry");
+		let coupon_modal_oops = document.getElementById("coupon_oops_modal"); 
+		coupon_oops.classList.remove("active");
+		coupon_modal_oops.classList.remove("active");
+		}
+		document.querySelector("#coupon_oops_ovlry").addEventListener("click", oopscoupon_h);
+		document.querySelector(".ok_btn").addEventListener("click", oopscoupon_h);
+</script>
+<!-- end coupon modal oops!-->
+
+
+</body>
+</html>

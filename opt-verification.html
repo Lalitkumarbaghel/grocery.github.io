@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grocery</title>
+	<!-- font family -->
+	<link rel="stylesheet" type="text/css" href="css/fonts-family.css">
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="css/gride.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/grocerycss.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<div class="forgot_password_main">
+	<div class="forgot_password_content">
+		<div class="forgot_back_btn">
+			<span><i class="fas fa-chevron-left"></i></span>
+		</div>
+		<div class="forgot_password_img">
+			<img src="images/opt_bg.png">
+		</div><!--img-->
+		<div class="forgot_password_heading">
+			<h2>Verification</h2>
+			<p>We have send code to <span>+91 9876543210</span></p>
+		</div>
+		<div class="forgot_pass_form">
+			<div class="form_group">
+				<form method="post" action="">
+					<ul>
+						<li>
+							<div class="verify_input">
+								<input type="text" name="" maxlength="1" id="verify_input1" onkeyup="opt1();">
+								<input type="text" name="" maxlength="1" id="verify_input2" onkeyup="opt2();">
+								<input type="text" name="" maxlength="1" id="verify_input3" onkeyup="opt3();">
+								<input type="text" name="" maxlength="1" id="verify_input4" onkeyup="opt4();">
+							</div>
+							<script type="text/javascript">
+								function opt1(){
+									let v_input1 = document.getElementById("verify_input1").value;
+									if (v_input1[0] == null) {
+										document.getElementById("verify_input1").focus();
+									}else{
+										document.getElementById("verify_input2").focus();
+									}
+								}
+								function opt2(){
+									let v_input1 = document.getElementById("verify_input2").value;
+									if (v_input1[0] == null) {
+										document.getElementById("verify_input1").select(focus());
+									}else{
+										document.getElementById("verify_input3").select(focus());
+									}
+								}
+								function opt3(){
+									let v_input1 = document.getElementById("verify_input3").value;
+									if (v_input1[0] == null) {
+										document.getElementById("verify_input2").select(focus());
+									}else{
+										document.getElementById("verify_input4").select(focus());
+									}
+								}
+								function opt4(){
+									let v_input1 = document.getElementById("verify_input4").value;
+									if (v_input1[0] == null) {
+										document.getElementById("verify_input3").select(focus());
+									}else{
+										document.getElementById("verify_input4").select(focus());
+									}
+								}
+							</script>
+						</li>
+						<li class="expen_li">
+							<div class="code_expen_time">
+								<p class="out_time">Code expiresin <span>01:00</span></p>
+							</div>
+						</li>
+						<li>
+							<button class="btn_green signup_btn" id="opt_suc_msg">Verify</button>
+						</li>
+						<li>
+							<button class="resend_opt_btn">Resend Otp</button>
+						</li>
+					</ul>
+				</form>
+			</div><!--end form group-->
+		</div>
+	</div>
+</div>
+<!-- start otp modal -->
+<div class="otp_verify_modal" id="otp_verify_modal">
+		<div class="otp_verify_cntnt">
+			<h6>Verify Your OTP</h6>
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+			  <circle class="path circle" fill="none" stroke="#09b44d" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"></circle>
+			  <polyline class="path check" fill="none" stroke="#09b44d" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "></polyline>
+			</svg>
+			<p class="success">Success Full!</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function success_msg() {
+	let susses_msg = document.getElementById('otp_verify_modal');
+	susses_msg.classList.add("otp_verify_show");
+}
+document.getElementById('opt_suc_msg').addEventListener("click", success_msg);
+// setInterval(function(){
+// 	let susses_msg2 = document.getElementById('otp_verify_modal');
+// 	susses_msg2.classList.remove("otp_verify_show");
+// }, 5000);
+	</script>
+<!-- end otp modal -->
+
+
+</body>
+</html>
