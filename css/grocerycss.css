@@ -539,7 +539,7 @@ input{
 }
 .grocery_product_info a{
         font-weight: 600;
-    line-height: 19px;
+    line-height: 21px;
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
