@@ -562,6 +562,13 @@ input{
     align-items: center;
     width: 100%;
 }
+.product_subscribe a{
+    display: block;
+    width: 100%;
+}
+.product_subscribe > a >button{
+    width: 100%;
+}
 .product_subscribe >button{
     width: 100%;
 }
