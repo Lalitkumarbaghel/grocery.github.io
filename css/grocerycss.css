@@ -538,14 +538,14 @@ input{
     padding: 9px 7px;
 }
 .grocery_product_info a{
-    font-weight: 600;
-    line-height: 20px;
+        font-weight: 600;
+    line-height: 19px;
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 40px;
+    height: 39px;
 }
 .grocery_product_info p.price_home{
     font-weight: 600;
