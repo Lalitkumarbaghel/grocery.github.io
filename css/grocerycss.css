@@ -5442,10 +5442,15 @@ p.success {
 /*end account*/
 .home_banner_img{
     width: 100%;
+    height: 225px;
+}
+.home_banner_img a{
+    display: block;
 }
 .home_banner_img img{
     width: 100%;
-    height: 100%;
+    height: 225px;
+    object-fit: cover;
 }
 @media only screen and (max-width: 465px){
     .price_select {flex-direction: column;}
