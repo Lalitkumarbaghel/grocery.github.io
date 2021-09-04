@@ -536,7 +536,7 @@ input{
     line-height: 0px;
     padding: 9px 7px;
 }
-.grocery_product_info a{
+.grocery_product_info a.grocery_product_name{
         font-weight: 600;
     line-height: 20px;
     -webkit-line-clamp: 2;
