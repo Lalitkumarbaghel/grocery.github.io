@@ -5442,7 +5442,7 @@ p.success {
 /*end account*/
 
 @media only screen and (max-width: 465px){
-    /*.price_select {flex-direction: column;}*/
+    .price_select {flex-direction: column;}
     .price_select select{margin-left: 0px;margin-bottom: 5px;}
     .product_subscribe {flex-direction: column;order: 1;}
     button.subscribe_btn{width: 100%;order: 2;margin-top: 5px;}
