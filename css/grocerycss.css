@@ -5440,7 +5440,13 @@ p.success {
     font-size: 15px;
 }
 /*end account*/
-
+.home_banner_img{
+    width: 100%;
+}
+.home_banner_img img{
+    width: 100%;
+    height: 100%;
+}
 @media only screen and (max-width: 465px){
     .price_select {flex-direction: column;}
     .price_select select{margin-left: 0px;margin-bottom: 5px;}
