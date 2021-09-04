@@ -12,7 +12,7 @@
   --border-radius: 50%;
   --addbutton-radius: 25px;
   --addbutton-bgc: #c7eac6;
-  --addbutton-color: #10b50a;
+  --addbutton-color: #fff;
   --section-bgc: #f1f1f1;
   /*start fonts*/
   --font-thin: Poppins-Thin;
@@ -596,7 +596,7 @@ button.subscribe_btn {
     width: 100%;
     background: transparent;
     border: transparent;
-    background: var(--addbutton-bgc);
+    background: var(--green_color);
     padding: 8px 8px;
     border-radius: var(--addbutton-radius);
     font-weight: 600;
