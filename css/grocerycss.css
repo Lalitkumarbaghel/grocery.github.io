@@ -1029,7 +1029,9 @@ button.subscribe_btn {
     justify-content: flex-start;
 }
 .add_cart_btn span.cart_remove_mobile{
-    color: var(--green_color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
 }
 .add_cart_btn span.shipping_cart{
     display: none;
