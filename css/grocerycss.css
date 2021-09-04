@@ -5455,6 +5455,6 @@ p.success {
     .product_button .search_product_add .add_btn_input button{width: 30px;height: 30px;}
     .add_cart_btn span.cart_remove_mobile{display: none;}
     .add_cart_btn span.shipping_cart{display: inline-block;}
-    .product_button .search_product_add .add_cart_btn span.shipping_cart i{color: var(--green_color);}
+    .add_cart_btn span.shipping_cart i{color: #fff;}
     .product_off p.off {font-size: 13px;}
 }
