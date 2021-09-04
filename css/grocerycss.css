@@ -408,16 +408,15 @@ input{
     font-size: 25px;
 }
 .home_category_items {
-    padding: 5px;
-    border-radius: 5px;
     background: #fff;
     margin-top: 8px;
     min-height: 153px;
-    border: 1px solid #d6d6d6;
 }
 .home_cate_img{
     width: 100%;
     height: 100px;
+    background: #ffe8cc;
+    border-radius: 5px;
 }
 .home_cate_img img{
     width: 100%;
