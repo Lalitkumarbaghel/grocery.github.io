@@ -972,7 +972,7 @@ button.subscribe_btn {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 43px;
+    height: 41px;
 }
 
 .product_price .price_home{
