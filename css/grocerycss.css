@@ -337,7 +337,7 @@ input{
     height: 44px;
     position: absolute;
     outline: none;
-    left: 17px;
+    left: 0;
     top: 50%;
     background: transparent;
     border: transparent;
