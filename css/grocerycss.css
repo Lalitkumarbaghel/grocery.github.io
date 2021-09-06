@@ -788,10 +788,10 @@ button.subscribe_btn {
 }
 .grocery_left_menu {
     position: fixed;
-    width: 220px;
+    width: 75%;
     height: 100%;
     top: 0px;
-    left: -300px;
+    left: -100%;
     background: #fff;
     z-index: 1;
     transition: all 0.4s ease;
@@ -800,7 +800,7 @@ button.subscribe_btn {
     -o-transition: all 0.4s ease;
 }
 .grocery_left_menu.active{
-    left: 0px;
+    left: 0;
     transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
