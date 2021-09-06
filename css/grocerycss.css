@@ -5146,6 +5146,10 @@ input.clipboard.hidden {
     height: 100%;
     opacity: 1;
 }
+.remember_txt.terms_cntnt input{
+        z-index: 1;
+        width: 20px;
+}
 .remember_checkmark{
     position: absolute;
     display: inline-block;
