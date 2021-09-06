@@ -5134,21 +5134,22 @@ input.clipboard.hidden {
 .remember_txt2.terms_cntnt p{
     color: #888;
 }
-.remember_txt2.terms_cntnt p a{
-    color: var(--green_color);
-    text-decoration: underline;
-}
+
 .remember_txt input{
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-    opacity: 1;
+    opacity: 0;
 }
 .remember_txt.terms_cntnt input{
         z-index: 1;
         width: 20px;
+} 
+.remember_txt.terms_cntnt .remember_txt2 p a{
+    color: var(--green_color);
+    text-decoration: underline;
 }
 .remember_checkmark{
     position: absolute;
