@@ -2919,6 +2919,7 @@ button.subscribe_btn {
 .fast_delivery_tabs {
     padding: 10px;
     margin-top: 15px;
+    padding-bottom: 60px;
 }
 .fast_delivery_tabs_btns{
     display: flex;
@@ -3086,6 +3087,7 @@ button.subscribe_btn {
 .add_slot_btn a.btn_green{
     display: block;
     width: 100%;
+    text-align: center;
 }
 /*end delivery time*/
 /*sart order complete*/
