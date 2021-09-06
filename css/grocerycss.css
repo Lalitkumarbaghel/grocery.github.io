@@ -546,7 +546,7 @@ input{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 44px;
+    height: 43px;
 }
 .grocery_product_info p.price_home{
     font-weight: 600;
