@@ -310,7 +310,7 @@ input{
 .header_search .header_search_box input{
     width: 100%;
     padding: 13px 20px 13px 40px;
-    border-radius: 25px;
+    border-radius: 3px;
     border: 0px;
     border: 1px solid #c7c7c7;
     caret-color: var(--green_color);
