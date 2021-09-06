@@ -5197,14 +5197,14 @@ input.clipboard.hidden {
     -o-transform-origin: left bottom;
     display: none;
 }
-.remember_txt input:checked ~ .remember_txt2 .remember_checkmark{
+.remember_txt input:checked ~ .remember_txt2 .remember_checkmark, .remember_txt input:checked ~ .signup_checkmark .remember_checkmark{
     background: var(--green_color);
     border: var(--green_color);
 }
-.remember_txt input:checked ~ .remember_txt2 .remember_checkmark::after{
+.remember_txt input:checked ~ .remember_txt2 .remember_checkmark::after, .remember_txt input:checked ~ .signup_checkmark .remember_checkmark::after{
     display: block;
 }
-.remember_txt input:checked ~ .remember_txt2 .remember_checkmark::before{
+.remember_txt input:checked ~ .remember_txt2 .remember_checkmark::before, .remember_txt input:checked ~ .signup_checkmark .remember_checkmark::before{
     display: block;
 }
 .forgot_btn a{
