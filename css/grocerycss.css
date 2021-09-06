@@ -333,11 +333,11 @@ input{
   font-weight: bold;
 }
 .header_search_box button{
-    width: 36px;
+    width: 30px;
     height: 44px;
     position: absolute;
     outline: none;
-    left: 0;
+    left: 10;
     top: 50%;
     background: transparent;
     border: transparent;
