@@ -4135,8 +4135,9 @@ table{
 }
 .coupon_btm_cntnt p.coupon_btm_head{
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 14px;
     color: #777;
+    line-height: 20px;
 }
 .coupon_btm_cntnt p.coupon_slot{
     color: red;
