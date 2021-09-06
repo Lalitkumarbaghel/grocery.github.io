@@ -846,8 +846,9 @@ button.subscribe_btn {
 }
 .left_meu_cntnt li a {
     display: block;
-    padding: 8px 12px;
+    padding: 10px 12px;
     font-size: 16px;
+    font-family: var(--font-extralight);
 }
 .left_meu_cntnt li:last-child a{
     border-bottom: none;
