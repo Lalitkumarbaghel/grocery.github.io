@@ -3077,6 +3077,16 @@ button.subscribe_btn {
 .slot_tabcontent li .delivery_slot_time input:checked ~ .slot_time_cntnt p.slot_time{
     color: #000;
 }
+.add_slot_btn{
+    position: fixed;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+}
+.add_slot_btn a.btn_green{
+    display: block;
+    width: 100%;
+}
 /*end delivery time*/
 /*sart order complete*/
 .order_complete_price {
