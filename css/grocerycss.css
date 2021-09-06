@@ -540,13 +540,13 @@ input{
 }
 .grocery_product_info a.grocery_product_name{
         font-weight: 600;
-    line-height: 20px;
+    line-height: 22px;
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 40px;
+    height: 44px;
 }
 .grocery_product_info p.price_home{
     font-weight: 600;
