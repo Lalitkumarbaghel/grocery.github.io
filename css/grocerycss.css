@@ -426,7 +426,7 @@ input{
     max-width: 115px;
     display: block;
     margin: 0 auto;
-    object-fit: scale-down;
+    object-fit: scale-downqsad;
 }
 .home_category_items p{
     display: -webkit-box;
