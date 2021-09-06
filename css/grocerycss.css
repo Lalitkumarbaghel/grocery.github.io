@@ -4040,7 +4040,7 @@ table{
 }
 .apply_coupon_search {
     background: #f1f1f1;
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
 }
 .apply_coupon_search form{
     position: relative;
@@ -4048,7 +4048,7 @@ table{
 .apply_coupon_search input{
     width: 100%;
     border: 1px solid #d2d2d2;
-    padding: 10px 60px 10px 12px;
+    padding: 12px 60px 12px 15px;
     outline: none;
     caret-color: #e96125;
 }
