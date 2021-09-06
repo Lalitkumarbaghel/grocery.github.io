@@ -2882,7 +2882,7 @@ button.subscribe_btn {
 /*start delivery time*/
 .fast_delivery_img{
     position: relative;
-    background: #e8e2e6;
+    background: #fff;
     z-index: 0;
 }
 .fast_delivery_img_box{
@@ -2902,7 +2902,7 @@ button.subscribe_btn {
     content: '';
     width: 25px;
     height: 100%;
-    background: linear-gradient(to left, #33ccff00 0%, #e8e2e6 56%);
+    background: linear-gradient(to left, #fff 0%, #fff 56%);
     top: 0px;
     left: -1px;
 }
@@ -2911,7 +2911,7 @@ button.subscribe_btn {
     content: '';
     width: 25px;
     height: 100%;
-    background: linear-gradient(to left, #e8e2e6 0%, #4ea50b00 50%);
+    background: linear-gradient(to left, #fff 0%, #fff 50%);
     top: 0px;
     right: 0px;
     z-index: 1;
