@@ -49,8 +49,10 @@
 		</div>
 		<div class="header_search">
 			<div class="header_search_box">
-				<input type="search" name="" placeholder="Find Products Here...">
-				<button><i class="fas fa-search"></i></button>
+				<form method="get" action="search-product.html">
+					<input type="search" name="" placeholder="Find Products Here...">
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -113,10 +115,12 @@
 					<p>Final amount will depend on actual weight of items ordered.</p>
 				</div>
 			<div class="order_coupen" >
-				<div class="order_coupen_heading" id="order_coupen_heading">
-					<h6><span><i class="fas fa-tags"></i></span> Apply Coupon code</h6>
-					<span class="chevron_arrow"><i class="fas fa-chevron-right"></i></span>
-				</div>
+				<a href="apply-coupon.html">
+					<div class="order_coupen_heading">
+						<h6><span><i class="fas fa-tags"></i></span> Apply Coupon code</h6>
+						<span class="chevron_arrow"><i class="fas fa-chevron-right"></i></span>
+					</div>
+				</a>
 				<div class="coupen_form">
 					<textarea placeholder="Comments"></textarea>
 				</div>
@@ -152,7 +156,7 @@
 				</div>
 			<div class="order_slot">
 				<h5>Delivery Slot:  <span>Tomorrow, 10:00 - 13:00</span></h5>
-				<a href="#">Change Slot</a>
+				<a href="delivery-time.html">Change Slot</a>
 			</div><!--end slot-->
 			<div class="payment_method">
 				<div class="payment_method_heading">
