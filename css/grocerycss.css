@@ -2482,7 +2482,7 @@ button.subscribe_btn {
     margin-right: 0px;
 }
 .product_price_btn >div.product_mrp_btns .add_cart_btn span i{
-    color: var(--green_color);
+    color: #fff;
 }
 .product_unite {
     padding: 15px 10px;
